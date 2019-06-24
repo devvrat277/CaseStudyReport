@@ -1,0 +1,143 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-24T09:12:32.866Z",
+        "line": 36,
+        "name": "user should be able to sign in",
+        "description": "",
+        "id": "searchengine-feature;user-should-be-able-to-sign-in;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10833490500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I want to choose sign in",
+            "match": {
+              "location": "loginAndSearchTest.i_want_to_choose_sign_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149661100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I want to write a step with \"Lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 28
+                }
+              ],
+              "location": "loginAndSearchTest.i_want_to_write_a_step_with(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153541700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I want to give passwoord with \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 30
+                }
+              ],
+              "location": "loginAndSearchTest.i_want_to_give_passwoord_with(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372683300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user should be able to login",
+            "match": {
+              "location": "loginAndSearchTest.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 243304200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I want to search product",
+            "match": {
+              "location": "loginAndSearchTest.i_want_to_search_product()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129394200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I want to enter product name \"Hand\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hand\"",
+                  "offset": 29
+                }
+              ],
+              "location": "loginAndSearchTest.i_want_to_enter_product_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 722238100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am able to clcik on search",
+            "match": {
+              "location": "loginAndSearchTest.i_am_able_to_clcik_on_search()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "SearchEngine feature",
+    "description": "  login feature \n  search a product",
+    "id": "searchengine-feature",
+    "keyword": "Feature",
+    "uri": "file:feature/SearchEngine.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
